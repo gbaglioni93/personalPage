@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import mee from "./img/mee.png";
 
 class Homepage extends Component {
   state = {};
@@ -18,7 +19,11 @@ class Homepage extends Component {
           >
             <h1
               className="p-5"
-              style={{ color: "white", verticalAlign: "middle" }}
+              style={{
+                color: "white",
+                letterSpacing: "1rem",
+                verticalAlign: "middle",
+              }}
             >
               GIORGIO BAGLIONI
             </h1>
@@ -27,7 +32,7 @@ class Homepage extends Component {
             className="col-md-4 col-xs-12"
             style={{ display: "flex", alignItems: "center" }}
           >
-            <img alt="pic of me" src="./img/mee.png"></img>
+            <img style={{ width: "90%" }} alt="pic of me" src={mee}></img>
           </div>
         </div>
       </div>

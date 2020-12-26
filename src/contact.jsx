@@ -5,7 +5,25 @@ class Contact extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "#80D4E7", height: "90vh" }}>
-        <h1 style={{ margin: "0" }}>Contact</h1>
+        <h1
+          className="p-5"
+          style={{
+            color: "white",
+            letterSpacing: "1rem",
+            verticalAlign: "middle",
+          }}
+        >
+          Contact
+        </h1>{" "}
+        <div className="pb-5">
+          <button className="btn btn-light">Email</button>
+        </div>
+        <div className="pb-5">
+          <button className="btn btn-light">Linkedin</button>
+        </div>
+        <div className="pb-5">
+          <button className="btn btn-light">Trimmy.co.uk</button>
+        </div>
       </div>
     );
   }
