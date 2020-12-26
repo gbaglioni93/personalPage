@@ -1,38 +1,23 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import mee from "./img/mee.png";
-
+import "./page.css";
 class Homepage extends Component {
   state = {};
   render() {
     return (
       <div
+        className="mainDiv"
         style={{
           backgroundColor: "#609E98",
-          height: "95vh",
         }}
       >
         <div className="row p-5" style={{ height: "100%" }}>
-          <div
-            className="col-md-8 col-xs-12"
-            style={{ display: "flex", alignItems: "center" }}
-          >
-            <h1
-              className="p-5"
-              style={{
-                color: "white",
-                letterSpacing: "1rem",
-                verticalAlign: "middle",
-              }}
-            >
-              GIORGIO BAGLIONI
-            </h1>
+          <div className="mainPageDivs col-md-8 col-xs-12 ">
+            <h1 className="myName">GIORGIO BAGLIONI</h1>
           </div>
-          <div
-            className="col-md-4 col-xs-12"
-            style={{ display: "flex", alignItems: "center" }}
-          >
-            <img style={{ width: "90%" }} alt="pic of me" src={mee}></img>
+          <div className="mainPageDivPicture col-md-4 col-xs-12">
+            <img className="myPicture" alt="pic of me" src={mee}></img>
           </div>
         </div>
       </div>

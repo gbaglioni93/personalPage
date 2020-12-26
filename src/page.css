@@ -1,0 +1,122 @@
+/* Home Page */
+.mainDiv {
+  height: 95vh;
+}
+.myName {
+  letter-spacing: 1rem;
+  padding-bottom: 5rem;
+  vertical-align: middle;
+  font-size: 4rem;
+  color: white;
+}
+.mainPageDivs {
+  display: flex;
+  align-items: center;
+}
+.myPicture {
+  width: 90%;
+}
+.mainPageDivPicture {
+  /* background-color: red; */
+}
+@media screen and (max-width: 768px) {
+  .myPicture {
+    width: 70%;
+  }
+  .myName {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+/* About */
+.leftRow {
+  height: 100%;
+  text-align: left;
+}
+.centerDivs {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  letter-spacing: 1rem;
+  font-size: 3rem;
+  vertical-align: middle;
+  padding-bottom: 4rem;
+}
+.paragraphFont {
+  font-size: 1.5rem;
+  color: #45341f;
+}
+@media screen and (max-width: 768px) {
+  .paragraphFont {
+    font-size: 1.25rem;
+  }
+  .title {
+    padding-bottom: 3rem;
+  }
+  .centerDivs {
+    margin: 0;
+  }
+}
+/* Resumé page */
+
+.secondaryTitle {
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.listText {
+  color: white;
+  font-size: 1.5rem;
+}
+.workRow {
+  padding-top: 8rem;
+}
+.resumeButton {
+  border: 1px solid #45341f;
+  color: #45341f;
+  padding: 1rem;
+  font-size: 1.25rem;
+  width: 15rem;
+}
+@media screen and (max-width: 768px) {
+  .secondaryTitle {
+    /* letter-spacing: 0.5rem;
+    font-size: 1rem; */
+    padding-bottom: 1rem;
+  }
+
+  .listText {
+    color: white;
+    font-size: 1.25rem;
+  }
+  .workRow {
+    padding-top: 0rem;
+  }
+  .resumeButton {
+    border: 1px solid #45341f;
+    color: #45341f;
+    padding: 1rem;
+    font-size: 1.25rem;
+    width: 15rem;
+  }
+}
+/* Contact Page */
+.buttonDiv {
+  padding-bottom: 3rem;
+}
+
+.contactButton {
+  border: 1px solid #2b628a;
+  color: #2b628a;
+  padding: 1rem;
+  font-size: 1.25rem;
+  width: 15rem;
+}
+@media screen and (max-width: 768px) {
+  .contactButton {
+    width: 90%;
+  }
+}

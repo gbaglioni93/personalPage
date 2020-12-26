@@ -1,28 +1,27 @@
 import React, { Component } from "react";
+import "./page.css";
 
 class Contact extends Component {
   state = {};
   render() {
     return (
-      <div style={{ backgroundColor: "#80D4E7", height: "90vh" }}>
-        <h1
-          className="p-5"
-          style={{
-            color: "white",
-            letterSpacing: "1rem",
-            verticalAlign: "middle",
-          }}
-        >
-          Contact
-        </h1>{" "}
-        <div className="pb-5">
-          <button className="btn btn-light">Email</button>
+      <div
+        className="mainDiv"
+        style={{
+          backgroundColor: "#80D4E7",
+          color: "white",
+        }}
+      >
+        <h1 className="title p-5">Contact</h1>
+
+        <div className="buttonDiv">
+          <button className="btn btn-light contactButton">Email</button>
         </div>
-        <div className="pb-5">
-          <button className="btn btn-light">Linkedin</button>
+        <div className="buttonDiv">
+          <button className="btn btn-light contactButton">Linkedin</button>
         </div>
-        <div className="pb-5">
-          <button className="btn btn-light">Trimmy.co.uk</button>
+        <div className="buttonDiv">
+          <button className="btn btn-light contactButton">Trimmy.co.uk</button>
         </div>
       </div>
     );
